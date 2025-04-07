@@ -1,0 +1,50 @@
+
+# Print the purpose of the program
+print("Even numbers between 1 and 15:")
+ 
+# Initialise a variable to keep track of the total sum of even numbers
+total = 0
+ 
+# Loop through numbers from 1 to 15 (inclusive)
+for i in range(1, 16):
+   
+    # Check if the number is odd using the modulo operator
+    if i % 2 != 0:
+        # If it's odd, skip to the next iteration of the loop
+        continue
+ 
+    # Print the number since it's even
+    print(i)
+ 
+    # Add the even number to the total sum
+    total += i
+ 
+# After the loop, print the total sum of all even numbers found
+print("Total of even numbers:", total)
+ 
+# Print the purpose of the program
+print("Odd numbers between 1 and 15:")
+ 
+# Initialise a variable to keep track of the total sum of odd numbers
+total = 0
+ 
+# Loop through numbers from 1 to 15 (inclusive)
+for i in range(1, 16):
+   
+    # Check if the number is even using the modulo operator
+    if i % 2 == 0:
+        # If it's even, skip to the next iteration of the loop
+        continue
+ 
+    # Print the number since it's odd
+    print(i)
+ 
+    # Add the odd number to the total sum
+    total += i
+ 
+# After the loop, print the total sum of all odd numbers found
+print("Total of odd numbers:", total)
+ 
+
+
+
